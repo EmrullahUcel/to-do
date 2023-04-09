@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#container{
+    display: table;
+    margin: auto;
+}
+
+#form{
+    width: 250px;
+    height: 100px;
+    background-color: yellowgreen;  
+    text-align: center;    
+}
+
+.buttons{
+    background-color: cyan;
+    border: 0;
+    width: 50px;
+    height: 35px;
+    
+}
+.buttons:hover{
+    cursor: pointer;
+    background-color: white;
+    color: aquamarine;
+}
+
+#form-notes{
+    width: 250px;
+    height: 200px;
+    background-color:darksalmon;  
+    text-align: center;    
+}
+.notes{
+    border: 1px solid yellowgreen;
+}
+ul{
+    list-style: none;
+}
+#dlt-btn2{
+    cursor: pointer;
+    float: right;
+}
